@@ -1,19 +1,32 @@
 {
-  "name": "testgatsby",
+  "name": "my-gatsby-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "my-gatsby-site",
+  "author": "TharinduMalith",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TharinduMJTNC/testGatsby.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TharinduMJTNC/testGatsby/issues"
-  },
-  "homepage": "https://github.com/TharinduMJTNC/testGatsby#readme"
+  "dependencies": {
+    "@mdx-js/react": "^2.1.5",
+    "gatsby": "^5.2.0",
+    "gatsby-plugin-google-analytics": "^5.2.0",
+    "gatsby-plugin-image": "^3.2.0",
+    "gatsby-plugin-manifest": "^5.2.0",
+    "gatsby-plugin-mdx": "^5.2.0",
+    "gatsby-plugin-sharp": "^5.2.0",
+    "gatsby-plugin-sitemap": "^6.2.0",
+    "gatsby-source-filesystem": "^5.2.0",
+    "gatsby-transformer-remark": "^6.2.0",
+    "gatsby-transformer-sharp": "^5.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
